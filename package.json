@@ -1,0 +1,16 @@
+{
+  "name": "babel-plugin-react-createcontext-displayname",
+  "version": "0.0.1",
+  "main": "lib/plugin.js",
+  "license": "Apache-2.0",
+  "scripts": {
+    "build": "rimraf lib && tsc"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/types": "^7.4.0",
+    "@types/babel__core": "^7.1.0",
+    "rimraf": "^2.6.3",
+    "typescript": "^3.4.2"
+  }
+}
