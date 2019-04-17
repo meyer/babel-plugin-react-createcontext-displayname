@@ -13,7 +13,7 @@ export = (
           // TODO(meyer) add test for React.createContext
           !t.isIdentifier(path.node.callee) ||
           path.node.callee.name !== 'createContext' ||
-          path.node.arguments.length !== 1
+          path.node.arguments.length > 1
         ) {
           return;
         }
